@@ -1,0 +1,37 @@
+
+body {
+    background: url(img/background.png) top right no-repeat;
+    background-color: #141b23;
+    background-size: 100%;
+}
+
+#menu {
+    color: white;
+    font-size: 26px;
+    margin-left: -200px;
+    margin-top: 45px;
+    padding: 20px;
+}
+
+#menu a {
+    padding: 10px;
+}
+
+#menu a:hover {
+    cursor: pointer;
+}
+
+#text {
+    color: white;
+    font-size: 18px;
+    margin-top: 100px;
+    margin-left: -100px;
+
+}
+
+#footer {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    margin-left: -200px;
+}
