@@ -1,0 +1,160 @@
+html{
+    background-image: url('img/background.png' );
+}
+
+head, body {
+    width: 80%;
+    margin: auto;
+}
+
+#mainContent {
+}
+
+#logo, #contacts {
+    float: left;
+    width: 40%;
+}
+
+#phoneNum1, #phoneNum2, #email {
+    font-weight: bold;
+    font-size: 24px;
+    float: left;
+    color: darkblue;
+}
+
+#muzhik {
+    float: left;
+    width: 20%;
+}
+
+#sideBar {
+    float: left;
+    size: 16px;
+    width: 20%;
+}
+
+#menu {
+    background: linear-gradient(90deg, rgba(255,255,255,0.6587009803921569) 0%, rgba(240,245,246,1) 50%, rgba(255,255,255,0.6278886554621849) 100%) !important;
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#menu a {
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+#menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+    border-radius:50px;
+    -moz-border-radius:50px;
+    -webkit-border-radius:50px;
+}
+
+#menu img {
+    padding-right: 5px;
+}
+
+
+#certificate {
+    background-color: #e7edf0;
+    border-radius: 25px;
+    border: 1px solid gray;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#manufacturers {
+    background-color: #e7edf0;
+    border-radius: 25px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+#sideHeader {
+    color: #6c924c;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#headerBar {
+    background-color: #f5fafc;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border: 1px solid #f5fafc;
+    margin-bottom: 10px;
+    height: 45px;
+}
+
+
+#mainBar {
+    float: left;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+#blocksDiv {
+    margin-left: 10px;
+
+}
+
+#block {
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 25px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+}
+
+#blockText {
+    vertical-align: center;
+}
+
+#blockText a {
+    color: green;
+    text-decoration: underline;
+}
+
+#block img{
+    float: left;
+    padding: 5px;
+}
+
+#welcome {
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+
+#gallery {
+    background-color: #e7edf0;
+    border-radius: 25px;
+    border: 1px solid gray;
+    text-align: center;
+    margin-left: 10px;
+
+}
+
+#more {
+    color: #236583 !important;
+    float: right;
+    padding-right: 15px;
+}
+
+#bottomMenu {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #236583
+}
+
+#copyright {
+    text-align: center;
+    color: #a3c1cf;
+}
