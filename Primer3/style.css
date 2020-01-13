@@ -64,8 +64,8 @@ body {
 #row23 {
     display: grid;
     grid-template-columns: repeat(4, 25%);
-    grid-auto-rows: minmax(auto, auto);
-    height: 915px;
+    grid-auto-rows: minmax(auto, 520px);
+    height: 910px;
 }
 
 #row2col1 {
@@ -76,7 +76,7 @@ body {
     grid-row-end: 3;
 }
 
-#newsDiv {
+#newsDivLeft {
     padding-left: 65px;
     width: 80%;
     padding-top: 25px;
@@ -146,10 +146,13 @@ body {
 
 #row2col3 {
     background-color: #f4ede7;
-    margin-bottom: -150px;
-    width: 80%;
     padding-left: 60px;
     text-align: left;
+}
+
+#newsDivRight {
+    width: 80%;
+    padding-top: 50px;
 }
 
 #row2col3 h5{
@@ -182,7 +185,8 @@ body {
 
 #row3col3 {
     background: url(img/image_3.png) no-repeat center;
-    background-size: 100%;;
+    background-size: 100%;
+
 }
 
 #row3col3 img {
