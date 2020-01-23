@@ -1,0 +1,74 @@
+body, html {font-family: "Trebuchet MS", Helvetica, sans-serif; 
+font-size: 14px;
+height:100%;width:100%;
+margin:0;
+padding:0; 
+background-color:black;
+background:url(../img/Dandelion.jpg) 100% top no-repeat; background-attachment:fixed;
+-moz-background-size: 100%;
+-webkit-background-size: 100%;
+-o-background-size: 100%;
+background-size: 100%;
+}
+#introduction {background-color:lightyellow;
+				padding: 50px 27px 50px 27px;
+				width: 75%;
+				border:5px solid grey;
+				text-align:left;
+				margin: auto;
+				}
+#logo {
+position:top; text-align:center;
+}
+.head {text-align:center;
+color:gold;
+}
+div#page {
+	margin: 30px auto auto auto;
+	text-align:center;
+	min-width:820px;
+max-width:900px;}
+.menuimg {
+background-image:"../img/img.jpg";
+background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+	text-align:center; clear:center;}
+li {
+	display: inline;
+	padding-left: 20px;
+	padding-right:15px;
+	font-size:20px;
+}
+ul	{border-top:2px solid #d0a24b;
+	border-bottom:2px solid #d0a24b;
+	max-width:400px;
+	margin:15px auto 15px auto;
+	text-align:center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	max-width: 600px; background-color:transparent;}
+	a {text-decoration:none;
+	color:red;
+	text-transform:uppercase;
+	}
+a:hover {
+  color: grey;
+	  
+  }
+div#author {background-color:lightyellow;
+				padding: 20px 27px 50px 27px;
+				width: 75%;
+				border:5px solid grey;
+				text-align:left;
+				margin: auto;
+}
+div#author img {
+    border: solid gray 5px;
+    float:left;
+    margin-right: 15px;
+}
+div#author h1 {
+    font-style: yellow;
+}
+h1,h2 {text-align:center;}
